@@ -14,5 +14,34 @@ html {
 }
 
 body {
+  background-color: #317298;
   margin-bottom: 60px;
+}
+
+#CoverArt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#Title {
+    color: white;
+}
+
+#Summary {
+    color: antiquewhite;
+}
+
+#Actors {
+    color: lightcoral;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
 }
