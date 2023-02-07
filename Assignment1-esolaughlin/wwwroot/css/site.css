@@ -15,23 +15,23 @@ html {
 
 body {
   background-color: #317298;
-  margin-bottom: 60px;
   font-size: 100%;
+  margin: auto;
+  width: 50%;
 }
 
 #CoverArt {
     display: block;
-    margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width: auto;
+    margin-left: auto;
+    height: auto;
+    width: 550px;
     border-radius: 50%;
 }
 
 #Title {
     color: white;
-    font-size: 3em;
-    
+    font-size: 7em;
 }
 
 #Summary {
@@ -39,15 +39,14 @@ body {
 }
 
 #Actors {
-    color: lightcoral;
+    color: antiquewhite;
+    list-style-position: inside;
 }
 
 #Trailer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width: auto;
 }
 
 .center {
@@ -58,11 +57,11 @@ body {
 }
 
 #link {
-    color:palevioletred;
+    color:antiquewhite;
 }
 
 #Rating {
-    color:floralwhite;
+    color:antiquewhite;
     font-size: 1.5em;
 }
 
