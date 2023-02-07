@@ -16,19 +16,22 @@ html {
 body {
   background-color: #317298;
   margin-bottom: 60px;
+  font-size: 100%;
 }
 
 #CoverArt {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: 150px;
     width: auto;
     border-radius: 50%;
 }
 
 #Title {
     color: white;
+    font-size: 3em;
+    
 }
 
 #Summary {
@@ -39,9 +42,30 @@ body {
     color: lightcoral;
 }
 
+#Trailer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: auto;
+}
+
 .center {
     margin: auto;
     width: 50%;
     padding: 10px;
     text-align: center;
+}
+
+#link {
+    color:palevioletred;
+}
+
+#Rating {
+    color:floralwhite;
+    font-size: 1.5em;
+}
+
+#Summary {
+    font-size: 1em;
 }
